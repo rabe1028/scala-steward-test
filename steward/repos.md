@@ -1,1 +1,1 @@
-- rabe1028/scala-steward-test
+- rabe1028/scala-steward-test:test-20210127
