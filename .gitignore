@@ -1,2 +1,24 @@
-*.class
-*.log
+# sbt
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# intellij idea
+.idea
+.bsp/
+
+# mac
+.DS_Store
+
+# etc
+.envrc
+.java-version
+*.env
+.scannerwork
+tools/tmp
