@@ -22,3 +22,6 @@ project/plugins/project/
 *.env
 .scannerwork
 tools/tmp
+
+# ignore steward working dir
+steward
