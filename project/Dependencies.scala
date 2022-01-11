@@ -11,6 +11,6 @@ object Dependencies {
   }
 
   object Kinesis {
-    val kinesis = "software.amazon.awssdk" % "elasticache" % Version.aws
+    val kinesis = "software.amazon.awssdk" % "kinesis" % Version.aws
   }
 }
