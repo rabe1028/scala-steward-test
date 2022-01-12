@@ -18,6 +18,6 @@ lazy val testProject = (project in file("test-project"))
       "software.amazon.awssdk" % "sqs" % "2.17.100", // scala-steward:off
       Elasticache.elasticache,
       Kinesis.kinesis,
-      "software.amazon.awssdk" % "sns" % "2.17.100", // default case
+      "software.amazon.awssdk" % "sns" % "2.17.109", // default case
     )
   )
