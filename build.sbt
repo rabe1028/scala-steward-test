@@ -12,9 +12,12 @@ lazy val testProject = (project in file("test-project"))
   )
   .settings(
     libraryDependencies ++= Seq(
+      // scala-steward:off
       "software.amazon.awssdk" % "dynamodb" % "2.17.100",
-      "software.amazon.awssdk" % "sqs" % "2.17.100", // scala-steward: off
+      // scala-steward:on
+      "software.amazon.awssdk" % "sqs" % "2.17.100", // scala-steward:off
       Elasticache.elasticache,
       Kinesis.kinesis,
+      "software.amazon.awssdk" % "sns" % "2.17.100", // default case
     )
   )
